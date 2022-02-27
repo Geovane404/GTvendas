@@ -22,7 +22,7 @@ function App() {
 
           <div className='col-sm-6'>
 
-            <h5 className='text-center text-secondary'>Total de Vendas</h5>
+            <h5 className='text-center text-secondary'>Total de vendas</h5>
             <DonutChart />
           </div>
 
@@ -30,7 +30,7 @@ function App() {
         
         <div className='py-3'>
           
-          <h2 className='text-primary'>Todas as Vendas</h2>
+          <h2 className='text-primary'>Vendas realizadas</h2>
         </div>
 
         <DataTable />
