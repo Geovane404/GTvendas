@@ -24,7 +24,7 @@ public class Sale implements Serializable{
 	private Double amount;
 	private LocalDate date;
 
-	@ManyToOne
+	@ManyToOne()
 	@JoinColumn(name = "seller_id")
 	private Seller seller;
 
