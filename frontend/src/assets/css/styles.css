@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 :root {
-    --color-primary: #FF8400;
+    --color-primary: #752664;
     --collor-error: #FF0000;
 }
 
@@ -22,6 +22,37 @@ html, body {
 .footer {
     flex-shrink: 0;
     text-align: center;
+}
+
+header{
+    background-color: var(--color-primary);
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+}
+
+.dsmovie-nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffff;
+}
+
+.dsmovie-nav-content h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.dsmovie-contact-container{
+    display: flex;
+    align-items: center;
+}
+
+.dsmovie-contact-link{
+    margin: 0 0 0 10px;
+    font-size: 12px;
 }
 
 .bg-primary {

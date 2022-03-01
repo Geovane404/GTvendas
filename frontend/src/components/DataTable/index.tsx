@@ -7,9 +7,9 @@ function DataTable() {
                     <tr>
                         <th>Data</th>
                         <th>Vendedor</th>
-                        <th>Clientes visitados</th>
+                        <th>Clientes Visitados</th>
                         <th>Negócios fechados</th>
-                        <th>Valor</th>
+                        <th>R$-Valor</th>
                     </tr>
                 </thead>
                 <tbody>
