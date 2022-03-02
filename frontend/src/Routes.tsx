@@ -14,7 +14,7 @@ function Routes() {
                     <Home/>
                 </Route>
 
-                <Route path="/dashBord">
+                <Route path="/dashboard">
                     <Dashboard/>
                 </Route>
 
